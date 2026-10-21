@@ -1,0 +1,8 @@
+torch
+transformers>=4.45
+accelerate
+bitsandbytes
+pillow
+matplotlib
+numpy
+pytest

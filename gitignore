@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and model files: never commit these (GitHub rejects files over 100 MB)
+images/
+val2017/
+*.zip
+*.safetensors
+*.bin
+*.pt
+.cache/
+
+# Scratch outputs written to the project root by the scripts.
+# Curated copies belong in docs/figures/ and results/ (those ARE committed).
+/comparison*.png
+/faithfulness*.png
+/advantage*.png
+/attention_overlay*.png
+/results.jsonl
